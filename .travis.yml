@@ -11,3 +11,10 @@ before_install:
 
 install:
   - echo "###installing###"
+
+notifications:
+  email:
+    recipients:
+      - sanadhis@gmail.com
+    on_success: never
+    on_failure: always
