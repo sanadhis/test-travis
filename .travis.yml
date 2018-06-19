@@ -1,1 +1,7 @@
 language: java
+jdk: 
+  - oraclejdk8
+  - oraclejdk9
+
+dist: xenial
+sudo: required
